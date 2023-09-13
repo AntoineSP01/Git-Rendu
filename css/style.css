@@ -19,7 +19,8 @@ nav{
 
 nav ul {
     display: flex;
-    gap: 10%;
+    justify-content: center;
+    gap: 5%;
 }
 header{
     background: linear-gradient(45deg, #030027, #151E3F);
@@ -31,8 +32,16 @@ nav li {
     margin-bottom: 1%;
 }
 
+.nav_index {
+    border-left: #faedcd 1px solid;
+    border-right: #faedcd 1px solid;
+    text-align: center;
+    width: 15%;
+}
 /* Index.html */
-
+body {
+    background-color: #faedcd;
+}
 /* Antoine.html */
 h1 {
     text-align: center;
