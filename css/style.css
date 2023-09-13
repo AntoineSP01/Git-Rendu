@@ -48,6 +48,12 @@ body {
 h1 {
     text-align: center;
 }
+.title-antoine{
+    font-weight: bold;
+    font-size: 48px;
+    margin-top: 2%;
+    text-decoration: overline underline;
+}
 .grid-antoine{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -58,10 +64,28 @@ h1 {
     background-color:#151E3F;
     height: 100%;
     padding: 2%;
+    margin-left: 5%;
 }
-
+.resume-antoine h2 {
+    color: #faedcd;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.resume-antoine p{
+    color: #faedcd;
+    margin-top: 3%;
+}
+.resume-antoine img{
+    width: 60%;
+    margin-top: 3%;
+}
 .hobbies-antoine{
     background-color: #ffffff;
+    padding: 2%;
+}
+.contact-antoine{
+    background-color: #151E3F;
     padding: 2%;
 }
 
