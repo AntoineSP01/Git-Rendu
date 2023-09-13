@@ -42,10 +42,78 @@ nav li {
 body {
     background-color: #faedcd;
 }
+
+
 /* Antoine.html */
 h1 {
     text-align: center;
 }
+.title-antoine{
+    font-weight: bold;
+    font-size: 48px;
+    margin-top: 2%;
+    text-decoration: overline underline;
+}
+.grid-antoine{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 3%;
+    justify-items: center;
+}
+.resume-antoine{
+    background-color:#151E3F;
+    height: 100%;
+    padding: 2%;
+    margin-left: 5%;
+    transition: 0.5s;
+}
+.resume-antoine:hover{
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+.resume-antoine h2 {
+    color: #faedcd;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.resume-antoine p{
+    color: #faedcd;
+    margin-top: 3%;
+}
+.resume-antoine img{
+    width: 60%;
+    margin-top: 3%;
+}
+.hobbies-antoine{
+    background-color: #ffffff;
+    padding: 25%;
+    transition: 0.5s;
+}
+.hobbies-antoine:hover{
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+.contact-antoine{
+    background-color: #151E3F;
+    padding: 5%;
+    margin-right: 10%;
+    transition: 0.5s;
+}
+.contact-antoine:hover{
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+.contact-antoine h2{
+    color: #faedcd;
+    text-align: center;
+    font-size: xx-large;
+}
+.contact-antoine p{
+    color: #faedcd;
+    margin-top: 3%;
+}
+
 
 
 
