@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+a {
+    color: #faedcd;  
+}
+
+nav{
+    
+    align-items: end;
+    height: 5%;
+    
+}
+
+nav ul {
+    display: flex;
+    gap: 10%;
+}
+header{
+    background: linear-gradient(45deg, #030027, #151E3F);
+    font-size: 150%;
+}
+
+nav li {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+/* Index.html */
+
+/* Antoine.html */
+h1 {
+    text-align: center;
+}
+/* Noah.html */
+h1 {
+    text-align: center;
+}
