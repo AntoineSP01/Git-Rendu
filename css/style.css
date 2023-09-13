@@ -42,10 +42,32 @@ nav li {
 body {
     background-color: #faedcd;
 }
+
+
 /* Antoine.html */
 h1 {
     text-align: center;
 }
+.grid-antoine{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 3%;
+    justify-items: center;
+}
+.resume-antoine{
+    background-color:#151E3F;
+    height: 100%;
+    padding: 2%;
+}
+
+.hobbies-antoine{
+    background-color: #ffffff;
+    padding: 2%;
+}
+
+
+
+
 /* Noah.html */
 h1 {
     text-align: center;
