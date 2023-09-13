@@ -65,6 +65,11 @@ h1 {
     height: 100%;
     padding: 2%;
     margin-left: 5%;
+    transition: 0.5s;
+}
+.resume-antoine:hover{
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 .resume-antoine h2 {
     color: #faedcd;
@@ -82,11 +87,31 @@ h1 {
 }
 .hobbies-antoine{
     background-color: #ffffff;
-    padding: 2%;
+    padding: 25%;
+    transition: 0.5s;
+}
+.hobbies-antoine:hover{
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 .contact-antoine{
     background-color: #151E3F;
-    padding: 2%;
+    padding: 5%;
+    margin-right: 10%;
+    transition: 0.5s;
+}
+.contact-antoine:hover{
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+.contact-antoine h2{
+    color: #faedcd;
+    text-align: center;
+    font-size: xx-large;
+}
+.contact-antoine p{
+    color: #faedcd;
+    margin-top: 3%;
 }
 
 
