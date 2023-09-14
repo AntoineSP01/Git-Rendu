@@ -45,26 +45,70 @@ body {
 
 
 /* Antoine.html */
-h1 {
+.title-antoine {
     text-align: center;
 }
 .title-antoine{
     font-weight: bold;
-    font-size: 48px;
-    margin-top: 2%;
+    font-size: 4vw;
+    margin-top: 1%;
     text-decoration: overline underline;
+}
+.identite-antoine{
+    background-color: #151E3F;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 0.5%;
+    margin-top: 2%;
+    transition: 1.5s;
+}
+.identite-antoine:hover{
+    border-radius: 20px;
+}
+.identite-antoine h2{
+    color: #faedcd;
+    font-size: 2vw;
+}
+.identite-antoine img{
+    width: 15%;
+    margin-bottom: 5%;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.identite-antoine img:hover{
+    width: 17%;
+    transform: rotate(5deg);
+}
+.contenu-identite-antoine{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6%;
+}
+.texte-identite-antoine{
+    background-color: #faedcd;
+    padding: 2%;
+    border-radius: 20px;
+    font-size: 1.5vw;
+    line-height: 200%;
+    text-align: center;
+    transition: 0.5s;
+}
+.texte-identite-antoine:hover { 
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.9);
 }
 .grid-antoine{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-top: 3%;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
     justify-items: center;
+    align-items: center;
+    margin: 5%;
 }
 .resume-antoine{
     background-color:#151E3F;
     height: 100%;
     padding: 2%;
-    margin-left: 5%;
     transition: 0.5s;
 }
 .resume-antoine:hover{
@@ -75,11 +119,12 @@ h1 {
     color: #faedcd;
     text-align: center;
     font-weight: bold;
-    font-size: xx-large;
+    font-size: 2vw;
 }
 .resume-antoine p{
     color: #faedcd;
     margin-top: 3%;
+    font-size: 1.3vw;
 }
 .resume-antoine img{
     width: 60%;
@@ -87,8 +132,12 @@ h1 {
 }
 .hobbies-antoine{
     background-color: #ffffff;
-    padding: 25%;
+    padding: 2%;
+    padding-bottom: 20%;
     transition: 0.5s;
+}
+.hobbies-antoine p{
+    font-size: 1.3vw;
 }
 .hobbies-antoine:hover{
     border-radius: 20px;
@@ -96,8 +145,8 @@ h1 {
 }
 .contact-antoine{
     background-color: #151E3F;
-    padding: 5%;
-    margin-right: 10%;
+    padding: 2%;
+    margin: 5%;
     transition: 0.5s;
 }
 .contact-antoine:hover{
@@ -107,14 +156,33 @@ h1 {
 .contact-antoine h2{
     color: #faedcd;
     text-align: center;
-    font-size: xx-large;
+    font-size: 2vw;
 }
 .contact-antoine p{
     color: #faedcd;
     margin-top: 3%;
+    text-align: center;
+    font-size: 1.3vw;
+}
+.tel-antoine{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.youhou{
+    text-decoration: underline;
+    font-weight: bold;
 }
 
-
+@media screen and (max-width: 780px){
+    .grid-antoine{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 20px;
+    }
+    .hobbies-antoine{
+        padding: 2%;
+    }
+}
 
 
 /* Noah.html */
