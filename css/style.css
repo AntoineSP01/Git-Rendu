@@ -134,7 +134,7 @@ h2 {
 
 .noah {
     display: flex;
-    border-radius: 10%;
+    border-radius: 50px;
     color: #faedcd;
     margin: 4% 15% 10% 15%;
     gap: 8%;
