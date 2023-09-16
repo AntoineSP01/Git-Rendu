@@ -38,6 +38,8 @@ nav li {
     text-align: center;
     width: 15%;
 }
+
+
 /* Index.html */
 body {
     background-color: #faedcd;
@@ -71,7 +73,7 @@ body {
     margin: 3%;
     grid-column-gap: 3%;
 }
-.antoine-resume{
+.resume{
     background-color: #151E3F;
     padding: 2%;
     text-align: center;
@@ -82,15 +84,20 @@ body {
     font-size: 1.3vw;
     transition: border-radius 0.5s;
 }
-.antoine-resume:hover{
+.resume:hover{
     border-radius: 20px;
 }
-.antoine-resume img{
+.resume img{
     width: 30%;
     border-radius: 20px;
     margin-top: 3%
 }
-.antoine-resume a{
+
+#img_antoine {
+    margin-top: 8%;
+}
+
+.resume a{
     margin: 4%;
     background-color: #faedcd;
     color: black;
@@ -99,11 +106,10 @@ body {
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.9);
     transition: 0.5s;
 }
-.antoine-resume a:hover{
+.resume a:hover{
     background-color: #ffffff;
     color: #151E3F;
 }
-
 
 
 /* Antoine.html */
