@@ -90,6 +90,19 @@ body {
     border-radius: 20px;
     margin-top: 3%
 }
+.antoine-resume a{
+    margin: 4%;
+    background-color: #faedcd;
+    color: black;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.9);
+    transition: 0.5s;
+}
+.antoine-resume a:hover{
+    background-color: #ffffff;
+    color: #151E3F;
+}
 
 
 
