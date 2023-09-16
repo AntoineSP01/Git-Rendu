@@ -42,6 +42,29 @@ nav li {
 body {
     background-color: #faedcd;
 }
+.concept{
+    display: flex;
+    align-items: center;
+    margin: 4%;
+    text-align: center;
+    font-size: 1.3vw; 
+    overflow: hidden;
+}
+.concept img{
+    width: 40%;
+    background-color: black;
+    padding: 2%;
+    border-radius: 50%;
+    margin-top: 2%;
+    transition: transform 0.4s ease, background-color 0.3s ease;
+}
+.concept img:hover{
+    transform: rotate(360deg);
+    background-color: transparent;
+}
+.github-accueil-rendu{
+    color: black;
+}
 
 
 /* Antoine.html */
